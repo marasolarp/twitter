@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter</title>
+	<link rel="stylesheet" type="text/css" href="asset/css/twitter.css">
+</head>
+<body>
+	<header>
+		<h2 class="titulo-principal" >Twitter</h2>
+		
+	</header>
+	<section class="estructura">
+		<div class="codigo">
+			<h3 class="titulo-reto">Reto del código</h3>
+			<h4 class="parrafo_1">Hola,<br>soy frond-end developer jr.</h4>
+			<hr class="linea">
+			<h4 class="titulo-codigo">CÓDIGO</h4>
+		</div>
+		<div class="cont-textarea">
+			<textarea name="txt" id="comment" placeholder="¿Que estas pensando?" onkeyup="count(this)" cols="60" rows="10"></textarea>
+			<br>
+			<button type="button" id="boton">TWEET</button>
+			<p id="contador">140</p>
+		</div>
+		
+		<div id="contenedor"></div>
+	</section>
+	<script type="text/javascript" src="asset/js/twitter.js"></script>
+</body>
+</html>
